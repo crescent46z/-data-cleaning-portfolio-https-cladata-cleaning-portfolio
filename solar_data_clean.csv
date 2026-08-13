@@ -1,0 +1,22 @@
+facility_id,date,equipment_type,power_output_kw,temperature_c,maintenance_cost,last_maintenance,status,notes,data_quality_flag
+SF001,2024-01-01,Inverter,450.5,28.3,1200.0,2023-12-15,operational,Normal operation,clean
+SF001,2024-01-02,Inverter,448.2,29.1,1000.0,2023-12-15,operational,Missing maintenance cost,clean
+SF001,2024-01-03,Inverter,0.0,30.2,0.0,2023-12-15,operational,NEGATIVE OUTPUT - ERROR,zero_cost
+SF001,2024-01-04,Inverter,452.1,28.9,1200.0,2023-12-15,operational,,clean
+SF001,2024-01-05,Inverter,451.8,29.5,1200.0,2023-12-15,operational,,clean
+SF001,2024-01-06,Inverter,0.0,30.1,1200.0,2023-12-15,operational,Blank power output,clean
+SF001,2024-01-07,Inverter,449.3,28.7,1200.0,2023-12-15,operational,,clean
+SF002,2024-01-01,Panel Array,1250.0,26.8,800.0,2023-11-20,operational,,clean
+SF002,2024-01-02,Panel Array,1245.3,27.5,800.0,2023-11-13,operational,Date format different,clean
+SF002,2024-01-03,Panel Array,1248.9,27.333333333333332,800.0,2023-11-13,operational,Missing temperature,clean
+SF002,2024-01-04,Panel Array,1251.2,27.2,800.0,2023-11-20,operational,,clean
+SF002,2024-01-05,Panel Array,2500.0,28.1,800.0,2023-11-20,operational,OUTLIER - CHECK DATA,outlier
+SF002,2024-01-06,Panel Array,1249.5,27.9,800.0,2023-11-20,operational,,clean
+SF002,2024-01-07,Panel Array,1246.8,26.5,800.0,2023-11-20,operational,,clean
+SF003,2024-01-01,Battery,325.0,22.1,500.0,2023-10-30,maintenance,"Scheduled maintenance, 2 days downtime",clean
+SF003,2024-01-02,Battery,0.0,22.3,416.6666666666667,2023-10-30,down,Offline for upgrades,clean
+SF003,2024-01-03,Battery,328.5,22.0,500.0,2023-10-30,operational,Status value inconsistent,clean
+SF003,2024-01-04,Battery,330.2,22.4,0.0,2023-10-30,operational,Cost should not be 0,zero_cost
+SF003,2024-01-05,Battery,329.8,22.2,500.0,2023-10-30,operational,,clean
+SF003,2024-01-06,Battery,331.0,22.5,500.0,2023-10-30,operational,,clean
+SF003,2024-01-07,Battery,330.5,23.1,500.0,2023-10-30,operational,,clean
